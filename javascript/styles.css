@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    height: 900px;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+}
+
+#menu img{
+    width: 38px;
+    height: 38px;
+    outline: 1px solid;
+}
+
+#notesContainer{
+    display: inline-block;
+    width: 79.5%;
+    height: 100%;
+}
+
+#noteExplorer{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    border-left: 2px solid;
+}
+
+.note{
+    
+}
+
+.notetab{
+    display: inline-block;
+    border: 1px solid;
+    background-color: lightyellow;
+}
+
+.noteviewer{
+    border: 1px solid;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    background-color: lightgreen;
+}
+
+.viewerbar{
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkcyan;
+}
+
+#viewerContext{
+    width: 140px;
+    height: 20px;
+    border: 1px solid;
+    text-align: center;
+    display: none;
+}
+
+#viewerContext ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#viewerContext li{
+    
+}
+
+#viewerContext li:hover{
+    background-color: lightgray;
+}
